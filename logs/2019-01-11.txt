@@ -1,0 +1,33 @@
+[11-Jan-2019 15:30:10 Europe/Berlin] Uncaught exception: 'ErrorException' with message 'Undefined variable: posts'
+Stack trace: #0 C:\xampp\htdocs\solid\App\Controllers\Usuario.php(26): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 [internal function]: App\Controllers\Usuario->loginAction()
+#2 C:\xampp\htdocs\solid\Core\Controller.php(48): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\solid\Core\Router.php(121): Core\Controller->__call('login', Array)
+#4 C:\xampp\htdocs\solid\public\index.php(43): Core\Router->dispatch('login')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\solid\App\Controllers\Usuario.php' on line 26
+[11-Jan-2019 15:30:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(43): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[11-Jan-2019 15:32:32 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(43): Core\Router->dispatch('index.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[11-Jan-2019 15:32:40 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(43): Core\Router->dispatch('index.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[11-Jan-2019 16:26:13 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to undefined method App\Models\Menu::query()'
+Stack trace: #0 C:\xampp\htdocs\solid\Core\Routes.php(31): App\Models\Menu::login()
+#1 C:\xampp\htdocs\solid\public\index.php(34): Core\Routes::get()
+#2 {main}
+Thrown in 'C:\xampp\htdocs\solid\App\Models\Menu.php' on line 29
+[11-Jan-2019 16:36:55 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'mvc''
+Stack trace: #0 C:\xampp\htdocs\solid\Core\Model.php(27): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\solid\Core\Model.php(38): Core\Model::getDB()
+#2 C:\xampp\htdocs\solid\App\Models\Menu.php(19): Core\Model::query('SELECT * FROM {...')
+#3 C:\xampp\htdocs\solid\Core\Routes.php(33): App\Models\Menu::all()
+#4 C:\xampp\htdocs\solid\public\index.php(34): Core\Routes::get()
+#5 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Model.php' on line 27

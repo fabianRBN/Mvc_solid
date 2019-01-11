@@ -1,0 +1,143 @@
+[09-Jan-2019 17:47:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('ventas.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 17:49:14 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('admin/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 17:50:45 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('Post')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 17:50:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexsAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\xampp\htdocs\solid\Core\Router.php(121): Core\Controller->__call('indexs', Array)
+#1 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('Posts/indexs')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Controller.php' on line 52
+[09-Jan-2019 17:50:54 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)'
+Stack trace: #0 C:\xampp\htdocs\solid\Core\Model.php(27): PDO->__construct('mysql:host=loca...', 'root', 'secret')
+#1 C:\xampp\htdocs\solid\App\Models\Post.php(29): Core\Model::getDB()
+#2 C:\xampp\htdocs\solid\App\Controllers\Posts.php(23): App\Models\Post::getAll()
+#3 [internal function]: App\Controllers\Posts->indexAction()
+#4 C:\xampp\htdocs\solid\Core\Controller.php(48): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\solid\Core\Router.php(121): Core\Controller->__call('index', Array)
+#6 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('Posts/index')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Model.php' on line 27
+[09-Jan-2019 17:58:17 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('ventas.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:16:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('ventas.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:19:54 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(40): Core\Router->dispatch('ventas.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:25:57 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin/ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:25:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin/ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:26:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:26:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin/Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:27:35 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin/Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:28:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:28:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:28:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('Ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:29:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:29:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:29:16 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:30:11 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ventas not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:30:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:31:30 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:31:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Venta not found'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 127
+[09-Jan-2019 18:32:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:33:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:33:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('ventas.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:33:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:33:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('index.html')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
+[09-Jan-2019 18:33:14 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\solid\public\index.php(41): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\solid\Core\Router.php' on line 130
